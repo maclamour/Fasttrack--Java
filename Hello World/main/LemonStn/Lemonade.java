@@ -5,6 +5,12 @@ public class Lemonade {
    private Sugar sugar;
    private Water water;
 
+    public Lemonade(LemonJuice lemonJuice, Sugar sugar, Water water) {
+        this.lemonJuice = lemonJuice;
+        this.sugar = sugar;
+        this.water = water;
+    }
+
     public LemonJuice getLemonJuice() {
         return this.lemonJuice;
     }
@@ -29,16 +35,10 @@ public class Lemonade {
         this.water = water;
     }
 
-    public Lemonade(LemonJuice lemonJuice, Sugar sugar, Water water) {
-        this.lemonJuice = lemonJuice;
-        this.sugar = sugar;
-        this.water = water;
-    }
-
-    public Lemonade(LemonJuice lemonJuice, Water water){
-        this.lemonJuice = lemonJuice;
-        this.water = water;
-        sugar = new Sugar(0, "none");
-    }
+    // public Lemonade(LemonJuice lemonJuice, Water water){
+    //     this.lemonJuice = lemonJuice;
+    //     this.water = water;
+    //     sugar = new Sugar(0, "none");
+    // }
 }
     
