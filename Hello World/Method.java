@@ -2,7 +2,7 @@ public class Method {
     public static void main(String[] args) {
         System.out.println(add(1,5));
         System.out.println(concat("cat ", "dog"));
-        System.out.println(divide(6, 0));
+        System.out.println(divide(6, 2));
 
     }
 
