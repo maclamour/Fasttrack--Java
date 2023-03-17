@@ -10,7 +10,10 @@ public class Main {
         System.out.println(waterOne.amount + " " + waterOne.unit);
 
         Sugar sugarOne = new Sugar(2, "tsps");
+        System.out.println(sugarOne.amount + " " + sugarOne.unit);
+        
         LemonJuice lemonJuiceOne = new LemonJuice(5, "tsps");
+        System.out.println(lemonJuiceOne.amount + " " + lemonJuiceOne.unit);
     }
     
 }
