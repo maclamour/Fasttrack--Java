@@ -1,4 +1,4 @@
-package LemonStand;
+package LemonStn;
 
 public class Lemonade {
     LemonJuice lemonJuice;

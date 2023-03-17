@@ -1,4 +1,4 @@
-package LemonStand;
+package LemonStn;
 
 public class Sugar {
     int amount;
