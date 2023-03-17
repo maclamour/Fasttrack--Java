@@ -6,6 +6,9 @@ import main.lemonstn.Sugar;
 import main.lemonstn.Water;
 
 public class Main {
+    int x = 5;
+
+    String hello = "Hello World";
     public static void main(String[] args) {
         LemonJuice lemonJuice = new LemonJuice(5, "ounces");
         Sugar sugar = new Sugar(4, "tsp");
@@ -13,7 +16,7 @@ public class Main {
 
         Lemonade lemonade = new Lemonade(lemonJuice, sugar, water);
 
-        System.out.println(waterOne.amount + " " + waterOne.unit);
+        System.out.println(lemonade.getWater());
 
     }
 
