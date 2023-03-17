@@ -1,4 +1,4 @@
-package Lemonade;
+package LemonStand;
 
 public class LemonJuice {
     int amount;
