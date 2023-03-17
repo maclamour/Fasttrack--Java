@@ -10,5 +10,11 @@ public class Lemonade {
         this.sugar = sugar;
         this.water = water;
     }
+
+    public Lemonade(LemonJuice lemonJuice, Water water){
+        this.lemonJuice = lemonJuice;
+        this.water = water;
+        sugar = new Sugar(0, "none");
+    }
 }
     
