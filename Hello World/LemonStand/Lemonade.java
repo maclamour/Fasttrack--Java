@@ -5,8 +5,10 @@ public class Lemonade {
     Sugar sugar;
     Water water;
 
-    public Lemonade(){
-        
+    public Lemonade(LemonJuice lemonJuice, Sugar sugar, Water water) {
+        this.lemonJuice = lemonJuice;
+        this.sugar = sugar;
+        this.water = water;
     }
-    
 }
+    
