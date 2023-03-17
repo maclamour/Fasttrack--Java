@@ -3,7 +3,7 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello World!");
 
-        int totalSugar = 10;
+        int totalSugar = 0;
 
         int sugar = 2;
 
@@ -36,10 +36,14 @@ public class HelloWorld {
         // System.out.println("I don't run until code is finsihed ");
 
         // for loop
-        for (int i = 1; i <= 10; i++){
-            System.out.println(i);
-        }
+        // for (int i = 1; i <= 10; i++){
+        //     System.out.println(i);
+        // }
 
+        for (; totalSugar < maxSugar; totalSugar += sugar){
+            System.out.println("Total sugar in glass: " + totalSugar);
+        }
+        System.out.println("I run always!");
     }
 
 }
