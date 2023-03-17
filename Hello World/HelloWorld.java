@@ -16,6 +16,7 @@ public class HelloWorld {
     }else {
         System.out.println("We only allow " + maxSugar + " tsp's of sugar per glass ");
     }
+    System.out.println("I run always!");
 
     }
 
