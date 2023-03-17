@@ -1,4 +1,4 @@
-package main.LemonStn;
+package main.lemonstn;
 
 public class Sugar {
     int amount;
