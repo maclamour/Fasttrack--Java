@@ -12,7 +12,9 @@ public class Arrays {
 
         int[] numbers = new int[] { 1, 2, 3, 4, 5};
 
-        int max = (int) Math.random() * 10;
+        numbers = new int[] {1,2,3,4,5,6,7};
+
+        int max = (int) (Math.random() * 10) + 1;
 
         int currentNumber = 6;
 
