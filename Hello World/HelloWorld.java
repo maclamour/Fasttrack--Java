@@ -10,7 +10,7 @@ public class HelloWorld {
         int maxSugar = 10;
 
         // else/else/else if
-        
+
         // if (sugar < maxSugar) {
         //     totalSugar += sugar;
         //     System.out.println(totalSugar + " tsp's of sugar have been added to you glass!");
@@ -29,11 +29,16 @@ public class HelloWorld {
         //     System.out.println("Total sugar in glass " + totalSugar);
         // }
 
-        do {
-            totalSugar += sugar;
-            System.out.println("Total sugar in glass " + totalSugar);
-        } while(totalSugar < maxSugar);
-        System.out.println("I don't run until code is finsihed ");
+        // do {
+        //     totalSugar += sugar;
+        //     System.out.println("Total sugar in glass " + totalSugar);
+        // } while(totalSugar < maxSugar);
+        // System.out.println("I don't run until code is finsihed ");
+
+        // for loop
+        for (int i = 1; i <= 10; i++){
+            System.out.println(i);
+        }
 
     }
 
