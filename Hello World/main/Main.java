@@ -1,22 +1,20 @@
 package main;
 
 import main.lemonstn.LemonJuice;
+import main.lemonstn.Lemonade;
 import main.lemonstn.Sugar;
 import main.lemonstn.Water;
 
 public class Main {
-    public static void main(String[] args){
-        Water waterOne = new Water(5, "cups");
+    public static void main(String[] args) {
+        LemonJuice lemonJuice = new LemonJuice(5, "ounces");
+        Sugar sugar = new Sugar(4, "tsp");
+        Water water = new Water(3, "cups");
 
-        Water waterTwo = new Water(2, "ounces");
+        Lemonade lemonade = new Lemonade(lemonJuice, sugar, water);
 
         System.out.println(waterOne.amount + " " + waterOne.unit);
 
-        Sugar sugarOne = new Sugar(2, "tsps");
-        System.out.println(sugarOne.amount + " " + sugarOne.unit);
-        
-        LemonJuice lemonJuiceOne = new LemonJuice(5, "tsps");
-        System.out.println(lemonJuiceOne.amount + " " + lemonJuiceOne.unit);
     }
-    
+
 }
