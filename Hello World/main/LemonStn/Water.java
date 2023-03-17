@@ -9,5 +9,14 @@ public class Water {
         this.unit = unit;
     }
 
-    
+    public void drink(int amount) throws IllegalAccessException {
+        if (this.amount < amount) {
+            throw new IllegalAccessException(
+                    "Cannot drink more than available. Amount of water available: " + this.amount);
+        } else {
+            this.amount -= amount;
+        }
+
+    }
+
 }
