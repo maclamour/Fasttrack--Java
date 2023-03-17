@@ -1,14 +1,13 @@
-package LemonStn;
+package main.LemonStn;
 
-public class LemonJuice {
+public class Water {
     int amount;
     String unit;
 
-    public LemonJuice(int amount, String unit) {
+    public Water(int amount, String unit) {
         this.amount = amount;
         this.unit = unit;
     }
 
-    
     
 }

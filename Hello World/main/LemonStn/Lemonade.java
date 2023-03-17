@@ -1,4 +1,4 @@
-package LemonStn;
+package main.LemonStn;
 
 public class Lemonade {
     LemonJuice lemonJuice;
