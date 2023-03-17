@@ -1,9 +1,9 @@
 package main.lemonstn;
 
 public class Lemonade {
-    LemonJuice lemonJuice;
-    Sugar sugar;
-    Water water;
+   private LemonJuice lemonJuice;
+   private Sugar sugar;
+   private Water water;
 
     public Lemonade(LemonJuice lemonJuice, Sugar sugar, Water water) {
         this.lemonJuice = lemonJuice;

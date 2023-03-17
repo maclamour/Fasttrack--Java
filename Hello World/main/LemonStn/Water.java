@@ -1,8 +1,8 @@
 package main.lemonstn;
 
 public class Water {
-    public int amount;
-    public String unit;
+    private int amount;
+    private String unit;
 
     public Water(int amount, String unit) {
         this.amount = amount;
