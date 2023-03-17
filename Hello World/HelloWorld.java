@@ -6,13 +6,13 @@ public class HelloWorld {
 
     int totalSugar = 0;
 
-    int sugar = 15;
+    int sugar = 6;
 
     int maxSugar = 10;
 
     if (sugar <= maxSugar){
         totalSugar += sugar;
-        System.out.println(totalSugar);
+        System.out.println(totalSugar + " tsp's of sugar have been added to you glass!");
     }else {
         System.out.println("We only allow " + maxSugar + " tsp's of sugar per glass ");
     }
