@@ -14,7 +14,7 @@ public class Order {
         super();
         this.customer = customer;
         lemonades = new Lemonade[0];
-        total = 0.0;
+        
     }
 
     public Customer getCustomer() {
@@ -30,6 +30,7 @@ public class Order {
     }
 
     private void updateTotal() {
+        total = 0.0;
         for (Lemonade l : lemonades) {
             total += l.getPrice();
         }
