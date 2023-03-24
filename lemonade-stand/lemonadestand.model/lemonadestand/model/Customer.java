@@ -1,0 +1,23 @@
+package lemonadestand.model
+
+public class Customer {
+
+    private String name;
+
+    private String phoneNumber;
+
+    public Customer(String name, String phoneNumber) {
+        this.name = name;
+        this.phoneNumber = phoneNumber;
+
+    }
+
+    public String getName() {
+        return this.name;
+    }
+
+    public String getPhoneNumber() {
+        return this.phoneNumber;
+    }
+
+}
