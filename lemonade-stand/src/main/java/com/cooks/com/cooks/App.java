@@ -34,6 +34,7 @@ public class App {
 
         System.out.println(order2.getTotal());
         System.out.println(order2.getCustomer().getName());
+        System.out.println(order2.getCustomer().getPhoneNumber());
 
     }
 }
