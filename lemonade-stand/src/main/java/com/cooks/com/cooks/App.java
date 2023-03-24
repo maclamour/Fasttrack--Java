@@ -23,6 +23,7 @@ public class App {
 
         System.out.println(order1.getTotal());
         System.out.println(order1.getCustomer().getName());
+        System.out.println(order1.getCustomer().getPhoneNumber());
 
         Order order2 = new Order(customer2);
         order2.addLemonade(new Lemonade(2.5, 4, 6.76, 7));
