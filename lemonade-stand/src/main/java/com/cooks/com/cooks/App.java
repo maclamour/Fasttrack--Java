@@ -22,10 +22,18 @@ public class App {
         }
 
         System.out.println(order1.getTotal());
+        System.out.println(order1.getCustomer().getName());
 
         Order order2 = new Order(customer2);
         order2.addLemonade(new Lemonade(2.5, 4, 6.76, 7));
+        order2.addLemonade(new Lemonade(4, 6, 8, 7));
+
+        for (Lemonade l : order2.getLemonades()){
+            System.out.println(l.getPrice());
+        }
+
         System.out.println(order2.getTotal());
+        System.out.println(order2.getCustomer().getName());
 
     }
 }
