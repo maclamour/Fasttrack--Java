@@ -14,6 +14,7 @@ public class Order {
         super();
         this.customer = customer;
         lemonades = new Lemonade[0];
+        total = 0.0;
     }
 
     private void updateTotal(){
@@ -26,5 +27,6 @@ public class Order {
         Lemonade[] temp = Arrays.copyOf(lemonades, lemonades.length + 1);
         temp[temp.length - 1] = lemonade;
         lemonades = temp;
+        updateTotal();
     }
 }
