@@ -1,0 +1,7 @@
+{
+    "java.project.sourcePaths": [
+        "lemonade-stand/lemonadestand.model",
+        "Hello World",
+        "lemonade-stand/src/main/java/com/cooks"
+    ]
+}

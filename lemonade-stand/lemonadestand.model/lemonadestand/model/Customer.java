@@ -1,4 +1,4 @@
-package lemonadestand.model
+package lemonadestand.model;
 
 public class Customer {
 
